@@ -1,0 +1,5 @@
+LABEL = Enter path (0,0)
+INPUT = Enter file path | path (0,1) | filePath
+BUTTON = browse (0,2) | browseBtn
+DROPDOWN = script1, script2, script3, script4 (1,1) | scriptChoice
+BUTTON = execute (1,2) | executeBtn

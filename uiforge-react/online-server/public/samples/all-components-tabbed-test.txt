@@ -1,0 +1,30 @@
+TABS = Inputs, Selection, Display, Navigation(0,10) | mainTabs
+
+LABEL = Enter path (Inputs: 0,0)
+INPUT = Enter file path | path (Inputs: 0,1) | filePath
+TEXTAREA = Extra notes (Inputs: 0,2) | notes
+BUTTON = Execute (Inputs: 0,3) | executeBtn
+CHECKBOX = Remember me (Inputs: 0,4) | rememberMe
+LABELINPUT = Email address | you@example.com (Inputs: 1,0) | emailAddress
+MULTISELECT = Python, JavaScript, React, SQL (Inputs: 1,1) | skills
+
+SWITCH = Enable notifications (Selection: 0,0) | notifications
+DROPDOWN = file1, file2, file3, file4 (Selection: 0,1) | fileChoice
+SELECT = Delhi, Mumbai, Kanpur, Pune (Selection: 0,2) | city
+RADIO = Small, Medium, Large (Selection: 0,3) | size
+RADIOGROUP = Male, Female, Other (Selection: 0,4) | gender
+
+BADGE = Active (Display: 0,0) | statusBadge
+ALERT = Heads up | every (Display: 0,1) | alertBox
+AVATAR = Ravi Kumar (Display: 0,2) | avatar
+DIVIDER = OR (Display: 0,3) | divider
+PROGRESS = 65 | Upload progress (Display: 0,4) | uploadProgress
+SPINNER = md (Display: 1,0) | spinner
+CARD = Storage | 72% of 500GB used (Display: 1,1) | storageCard
+
+NAVBAR = Logicknots | Home, Docs, Contact (Navigation: 0,0) | navbar
+LINK = View documentation | # (Navigation: 0,1) | docsLink
+SLIDER = 40 | Volume (Navigation: 0,2) | volume
+PAGINATION = 6 (Navigation: 1,0) | pagination
+TOOLTIP = Hover me | tooltip  (Navigation: 1,1) | tooltip
+ACCORDION = Billing, Shipping, Returns (Navigation: 1,2) | accordion

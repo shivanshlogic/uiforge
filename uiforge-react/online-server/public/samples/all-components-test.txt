@@ -1,0 +1,32 @@
+PAGE: All Components Test
+DESCRIPTION: Ek hi page me UIForge ke saare supported component types (testing ke liye).
+
+LABEL = Enter path (0,0)
+INPUT = Enter file path | path (0,1) | filePath
+TEXTAREA = Extra notes yahan likhein (0,2) | notes
+BUTTON = Execute (0,3) | executeBtn
+CHECKBOX = Remember me (0,4) | rememberMe
+
+SWITCH = Enable notifications (1,0) | notifications
+DROPDOWN = file1, file2, file3, file4 (1,1) | fileChoice
+SELECT = Delhi, Mumbai, Kanpur, Pune (1,2) | city
+RADIO = Small, Medium, Large (1,3) | size
+RADIOGROUP = Male, Female, Other (1,4) | gender
+
+BADGE = Active (2,0) | statusBadge
+ALERT = Heads up | Sab kuch theek chal raha hai (2,1) | alertBox
+AVATAR = Ravi Kumar (2,2) | avatar
+DIVIDER = OR (2,3) | divider
+PROGRESS = 65 | Upload progress (2,4) | uploadProgress
+
+SPINNER = md (3,0) | spinner
+NAVBAR = UIForge | Home, Docs, Contact (3,1) | navbar
+CARD = Storage | 72% of 500GB used (3,2) | storageCard
+LINK = View documentation | # (3,3) | docsLink
+SLIDER = 40 | Volume (3,4) | volume
+
+PAGINATION = 6 (4,0) | pagination
+TOOLTIP = Hover me | Ye ek tooltip hai (4,1) | tooltip
+ACCORDION = Billing, Shipping, Returns (4,2) | accordion
+
+LABELINPUT = Email address | you@example.com (5,0) | emailAddress

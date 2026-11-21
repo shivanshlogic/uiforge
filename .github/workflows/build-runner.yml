@@ -1,0 +1,22 @@
+# Builds the prebuilt portable RUNNER once per OS. Per-UI packaging later only
+# appends the spec (tools/inject_spec.py) -- no per-UI Rust build.
+name: build-runner
+on: workflow_dispatch
+jobs:
+  windows:
+    runs-on: windows-latest
+    defaults: { run: { working-directory: online-server } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: online-server/package-lock.json }
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with: { workspaces: online-server/src-tauri }
+      - run: npm ci
+      - run: npx tauri build --no-bundle
+      - uses: actions/upload-artifact@v4
+        with:
+          name: runner-windows
+          path: online-server/src-tauri/target/release/uiforge-app.exe
+  # Linux AppImage job comes in the AppImage milestone.

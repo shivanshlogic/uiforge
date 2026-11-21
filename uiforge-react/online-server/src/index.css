@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens from the original project's tokens object (ui_components.js)
+   -- kept here for reference/future use, though Tailwind's own palette
+   already covers everything currently used (green/red/amber/blue). */
+:root {
+  --uiforge-bg: #000000;
+  --uiforge-panel: #0A0A0A;
+  --uiforge-navbar: #14532D;
+}

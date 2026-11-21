@@ -1,0 +1,12 @@
+LABEL = Enter path (0,0)
+INPUT = Enter file path | path (0,1) | filePath
+BUTTON = Browse (0,2) | browseBtn
+
+DROPDOWN = report.py, backup.sh, cleanup.js, deploy.sh (1,1) | scriptChoice
+BUTTON = Execute (1,2) | executeBtn
+
+LABEL = Email (2,0)
+INPUT = you@example.com | email (2,1) | emailInput
+
+LABEL = Age (3,0)
+INPUT = Enter age | number (3,1) | ageInput

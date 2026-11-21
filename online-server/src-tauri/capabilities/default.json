@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Minimum permissions: native open-file dialog only. No fs, shell, http or opener access.",
+  "windows": ["main"],
+  "permissions": ["dialog:allow-open"]
+}

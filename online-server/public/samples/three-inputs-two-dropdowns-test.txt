@@ -1,0 +1,11 @@
+LABEL = File one (0,0)
+INPUT = Enter file path | path (0,1) | one
+LABEL = File two (1,0)
+INPUT = Enter file path | path (1,1) | two
+LABEL = File three (2,0)
+INPUT = Enter file path | path (2,1) | three
+LABEL = Choose option A (3,0)
+DROPDOWN = file1, file2, file3, file4 (3,1) | ten
+LABEL = Choose option B (4,0)
+DROPDOWN = file1, file2, file3, file4 (4,1) | nine
+BUTTON = execute (5,1) | executeBtn

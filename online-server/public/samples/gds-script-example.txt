@@ -1,0 +1,12 @@
+PAGE: GDS Script Runner
+DESCRIPTION: Matches the local-backend's exact GET /select-gds + POST /execute example.
+
+LABEL = GDS File (0,0)
+INPUT = Enter GDS path | gds path (0,1) | gds
+BUTTON = Browse (0,2) | browseGds
+
+LABEL = Script File (1,0)
+INPUT = Enter script path | script path (1,1) | script
+BUTTON = Browse (1,2) | browseScript
+
+BUTTON = Execute (2,0) | executeBtn
